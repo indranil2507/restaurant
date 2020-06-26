@@ -20,6 +20,107 @@ h1{
     align-items: center;
    
 }
+*{
+    font-family: 'Great Vibes', cursive;
+    margin:0;
+    padding:0;
+    /* height:100%;
+    width:100%; */
+}
+#chef{
+    display:flex;
+    margin:34px;
+
+}
+
+#food::before{
+    content:"";
+    background: url("bg1.jpeg") no-repeat center center/cover;
+    position:absolute;
+    height: 100%;
+    width:100%;
+    z-index:-1;
+    opacity:0.4;
+
+}
+
+#chef .box{
+
+    /* border:5px solid black; */
+    /* border-radius: 5px; */
+    margin:10px 12px;
+    padding:20px 20px;
+    /* background-color: rgb(178, 233, 233); */
+
+    
+}
+
+#chef .box img{
+
+    /* border:5px solid rgb(233, 122, 18); */
+    height:156px;
+    border-radius: 100px;
+    display: block;
+    margin:auto;
+
+
+}
+
+/* @keyframes example {
+    0%   {background-color:rgb(158, 224, 188); left:0px; top:0px;}
+    25%  {background-color:rgb(156, 212, 235); left:200px; top:0px;}
+    50%  {background-color:rgb(195, 245, 199); left:200px; top:200px;}
+    75%  {background-color:rgb(245, 250, 177); left:0px; top:200px;}
+    100% {background-color:rgb(209, 159, 201); left:0px; top:0px;}
+  } */
+
+.center{
+    
+    border:2px solid white;
+    padding:5px 5px;
+    margin: 6px 6px;
+    border-radius: 10px;
+    background-color:black;
+    color:white;
+    font-size: 21px;
+    /* font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif; */
+    
+    /* animation-name: example;
+    animation-duration: 5s;
+    animation-delay: 4s; */
+  
+    
+    
+}
+
+.secondary{
+    
+    padding:10px 6px;
+    margin:10px 3px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.primary{
+
+    /* font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:12px 12px;
+    padding-right:110px;
+    margin:23px;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline;
+    color:black;
+
+}
 .buttons{
     display: flex;
     padding-top: 100px;
