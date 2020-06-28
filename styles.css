@@ -9,7 +9,7 @@ body{
    
 } */
 .carousel-item img {
-    max-width:100%;
+    max-width:400px;
     max-height:650px;
 
 }
