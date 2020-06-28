@@ -7,6 +7,24 @@ body{
     max-width:70%;
     max-height:500px;
 }
+.carousel-item img {
+    max-width:70%;
+    max-height:500px;
+}
+.carousel-item h5{
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+    color:white;
+    font-size: 19px;
+
+}
+
+.carousel-item p{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+    color: white;
+}
 .intro{
     padding-bottom: 200px;
 }
