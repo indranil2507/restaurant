@@ -3,11 +3,11 @@ body{
     background-attachment: fixed;
     background-size: auto;
 }
-.carousel-item img {
+/* .carousel-item img {
     height:100%;
     width:100%;
    
-}
+} */
 .carousel-item img {
     max-width:70%;
     max-height:500px;
