@@ -3,6 +3,10 @@ body{
     background-attachment: fixed;
     background-size: auto;
 }
+.carousel-item img {
+    max-width:100%;
+    max-height:500px;
+}
 .intro{
     padding-bottom: 200px;
 }
