@@ -3,34 +3,36 @@ body{
     background-attachment: fixed;
     background-size: auto;
 }
-/* .carousel-item img {
-    height:100%;
-    width:100%;
-   
-} */
-.carousel-item img {
-    max-width:400px;
-    max-height:650px;
-
-}
-.carousel-item img {
-    max-width:70%;
-    max-height:500px;
-}
-.carousel-item h5{
-    font-weight: bold;
-    font-family: 'Great Vibes', cursive;
-    color:white;
-    font-size: 50px;
-
+/*#############carousel##########*/
+.review{
+    max-height: 400px; 
+    padding: 20px 150px;  
+    padding-bottom: 20px;
 }
 
-.carousel-item p{
-    font-size: 45px;
-    font-weight: bold;
-    font-family: 'Great Vibes', cursive;
-    color: white;
+.review img{
+    max-height: 300px;
+    opacity: 1.5;
+    
 }
+.reviews{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:760px){
+    .review{
+        padding: 20px 0px;
+    }
+    .review .section-light{
+        max-height: 200px;
+    }
+    .review .section-light p{
+        display: none;
+
+    }
+}
+/*######################################*/
 .intro{
     padding-bottom: 200px;
 }
