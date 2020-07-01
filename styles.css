@@ -255,3 +255,39 @@ h2{
 .btn-twitter{color:#55acee!important;}
 .btn-mail{color:#512DA8!important;}
 /*############################footer###############################################*/
+/*#########################book a table###############*/
+.tablebooking{
+    display: inline;
+}
+.reserve{
+    max-height: 600px;
+    margin-top: 50px;
+   
+}
+.imgreserve{
+    max-height: 500px;
+    padding-bottom:50px;
+}
+.form{
+    padding-bottom: 50px;
+    }
+.head{
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+@media (max-width:760px){
+    .pic{
+        display: none;
+    }
+    .reserve{
+        max-height: 800px;
+        display: flex;
+    }
+    .form{
+        justify-content: center;
+        align-items: center;
+        margin-left:50px
+        }
+    
+}
