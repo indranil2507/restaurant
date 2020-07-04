@@ -455,6 +455,31 @@ button :hover{
     transform:scale(1.2);
     cursor: pointer;
 }
+/*##################modal###############*/
+
+.modal{
+    display: flex;
+    background-color: rgb(255,255,255,0.6)
+    
+}
+
+.modal-header{
+    
+    justify-content: center;
+    align-items: center;
+}
+.list-group-item{
+    color: black;
+
+}
+.list-group-item button{
+    background-color: white;
+    border: transparent;
+    size: 20px;
+}
+.buy{
+    align-items: center;
+}
 
 
 
