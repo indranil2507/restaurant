@@ -3,36 +3,6 @@ body{
     background-attachment: fixed;
     background-size: auto;
 }
-/*#############carousel##########*/
-.review{
-    max-height: 400px; 
-    padding: 20px 150px;  
-    padding-bottom: 20px;
-}
-
-.review img{
-    max-height: 300px;
-    opacity: 1.5;
-    
-}
-.reviews{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-@media (max-width:760px){
-    .review{
-        padding: 20px 0px;
-    }
-    .review .section-light{
-        max-height: 200px;
-    }
-    .review .section-light p{
-        display: none;
-
-    }
-}
-/*######################################*/
 .intro{
     padding-bottom: 200px;
 }
@@ -70,6 +40,7 @@ h2{
 .aboutus{
     padding: 20px 20px;
     padding-top: 100px;
+    padding-bottom: 50px;
 }
 .section-light{
     background-color:#f4f4f4;
@@ -176,6 +147,7 @@ h2{
     color: #ddd !important;
     height:350px;
     position: relative;
+    padding-top: 50px;
     
     
    
@@ -239,6 +211,8 @@ h2{
  font-size: 30px;
  left: 50%;
  text-align: center;
+ align-items: center;
+ justify-content: center;
  }
  .container{
      text-align: center;
@@ -255,6 +229,36 @@ h2{
 .btn-twitter{color:#55acee!important;}
 .btn-mail{color:#512DA8!important;}
 /*############################footer###############################################*/
+/*############################carousel###############################################*/
+
+.review{
+    max-height: 400px; 
+    padding: 20px 150px;  
+    padding-bottom: 20px;
+}
+
+.review img{
+    max-height: 300px;
+    opacity: 1.5;
+    
+}
+.reviews{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:550px){
+    .review{
+        padding: 20px 0px;
+    }
+    .review .section-light{
+        max-height: 200px;
+    }
+    .review .section-light p{
+        display: none;
+
+    }
+}
 /*#########################book a table###############*/
 .tablebooking{
     display: inline;
@@ -291,6 +295,7 @@ h2{
         }
     
 }
+/*######################specials##############*/
 .specials .container
 {
     width: 100%;
@@ -397,7 +402,33 @@ h2{
     
 }
 }
-/************/
+/*##################modal###############*/
+
+.modal{
+    display: flex;
+    background-color: rgb(255,255,255,0.6)
+    
+}
+
+.modal-header{
+    
+    justify-content: center;
+    align-items: center;
+}
+.list-group-item{
+    color: black;
+
+}
+.list-group-item button{
+    background-color: white;
+    border: transparent;
+    size: 20px;
+}
+.buy{
+    align-items: center;
+}
+/*###############cart##################*/
+
 .cartnew{
     background-color: rgba(255,255,255,0.6);
     margin: 50px 100px;
@@ -455,33 +486,4 @@ button :hover{
     transform:scale(1.2);
     cursor: pointer;
 }
-/*##################modal###############*/
-
-.modal{
-    display: flex;
-    background-color: rgb(255,255,255,0.6)
-    
-}
-
-.modal-header{
-    
-    justify-content: center;
-    align-items: center;
-}
-.list-group-item{
-    color: black;
-
-}
-.list-group-item button{
-    background-color: white;
-    border: transparent;
-    size: 20px;
-}
-.buy{
-    align-items: center;
-}
-
-
-
-
 
