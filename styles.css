@@ -397,6 +397,65 @@ h2{
     
 }
 }
+/************/
+.cartnew{
+    background-color: rgba(255,255,255,0.6);
+    margin: 50px 100px;
+    
+}
+.cartnew .container
+{
+    width: 100%;
+   
+    padding:20px 20px;
+   
+    
+    
+}
+.cartnew .container .col-9
+{
+    display: flex;
+    padding: 5px 10px;
+    justify-content: center;
+    align-items: center;
+}
+.cartnew .container .box{
+    
+    
+    background-color: #ccc;
+    width: 500px;
+    
+
+
+}
+.cartnew .container form{
+    padding: 20px 10px;
+    padding-bottom: 30px;
+}
+.cartnew .button-confirm{
+    border: none;
+    background-color: #ccc;
+    
+}
+.button-list{
+    background-color: white !important;
+
+}
+.cartnew .container .box .list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button :hover{
+    transform:scale(1.2);
+    cursor: pointer;
+}
+.button-list  :hover{
+    transform:scale(1.2);
+    cursor: pointer;
+}
+
 
 
 
