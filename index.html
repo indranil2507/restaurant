@@ -40,11 +40,70 @@
         </ul>
         <li class="nav-item form-inline my-2 my-lg-0">
             
-            <button type="button" class="btn btn-outline-light "><i class="fa fa-cart-plus fa-lg"></i>   Cart</button>
+            <button type="button" class="btn btn-outline-light " data-toggle="modal" data-target="#cartmodal"><i class="fa fa-cart-plus fa-lg"></i>   Cart</button>
           </li>
         
       </div>
+
     </nav>
+    <div class="modal fade" id="cartmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" >Cart</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <ul class="list-group">
+              <li class="list-group-item">Cras justo odio 
+                <div class="close">
+                  Rs 120
+                  
+                  <button type="button">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                </li>
+              <li class="list-group-item">Dapibus ac facilisis in 
+                <div class="close">
+                  Rs 120
+                  
+                  <button type="button">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                </li>
+              <li class="list-group-item">Morbi leo risus
+                <div class="close">
+                  Rs 120
+                  
+                  <button type="button">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+               </li>
+              <li class="list-group-item"></li>
+              <li class="list-group-item"></li>
+              <li class="list-group-item">Total
+                <div class="close">
+                  Rs 120
+                  
+                  
+                </div>
+              </li>
+            </ul>
+            <br>
+            <br>
+          </div>
+          <div class="modal-footer buy">
+            
+            <a href="cart.html"><button type="button" class="btn btn-dark">Buy Now</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="intro">
       <div class="cover">
         <div class="border"><h1>Umore Alimentre</h1></div>
